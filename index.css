@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Sarina&display=swap');
+body {margin: 0;
+font-family:Verdana, Arial, sans-serif;
+background-color: #739072;}
+
+main { 
+display: block;
+padding: 3em;
+background-color: #ffffff;
+color: #000000;} 
+
+nav { position:sticky;
+top:0;
+z-index:1;
+width:100%;
+background-color: #739072; 
+height: 50px; }
+
+nav ul { list-style-type: none;
+margin: 0;
+text-align: center;}
+
+
+nav li {  display:inline-block;
+width: 205px;
+padding-top:10px;
+padding-bottom:10px;
+text-align: center;}
+
+nav a  { 
+text-decoration: none; 
+color: white;
+font-size: 1.25em;
+font-weight:bold;}
+
+
+h4 {color: #304D30;}
+
+header { 
+background-color: #4F6F52;
+color: #EEF0E5; 
+font-size: 150%; 
+text-align: center;
+padding: 10px 10px 10px 30px;
+font-family: "Courgette", cursive;
+text-shadow: 2px 2px 0 black;
+}
+
+h2 { 
+color: #163020; 
+font-family: arial, sans-serif;}
+
+
+.right{ 
+float:right;
+margin: 10px;
+  padding: 5px;}
+
+footer { 
+clear:both;
+background-color: #869c7; 
+color: #FFFFFF;
+font-size:70%;
+text-align: center;
+padding: 2em;}	
+
