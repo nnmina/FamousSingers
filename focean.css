@@ -66,3 +66,18 @@ font-size:70%;
 text-align: center;
 padding: 2em;}	
 
+
+
+body {
+display: flex;
+flex-direction: column;
+}
+
+@media (max-width: 470px){
+  nav {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+}
+
